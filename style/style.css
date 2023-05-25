@@ -60,8 +60,26 @@ body {
 }
 
 @media(max-width:1100px) {
+    
     .container {
         max-width: 1024px;
+        
+    }
+
+    .page1 p{
+        font-size: 20px;
+    }
+    .product p{
+        font-size: 30px;
+    }
+    .coletion2018 .page3_info{
+        font-size: 20px;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+        
+    }
+    .page4.product .about{
+        font-size: 30px;
     }
     .page3{
         flex-direction: column;
@@ -70,6 +88,11 @@ body {
         flex-direction: column-reverse;
 
     }
+    
+   .page5 .container .page3_info{
+    font-size: 20px;
+    
+   }
 
     .page2 .new_colection {
         max-width: 100%;
@@ -81,7 +104,7 @@ body {
     }
 
     .Title {
-        font-size: 22px;
+        font-size: 28px;
         margin-top: 50px;
         margin-bottom: 60px;
     }
@@ -90,7 +113,7 @@ body {
         background: none;
         border: 1px solid #FFFFFF;
         font-family: 'PT Sans';
-        font-size: 12px;
+        font-size: 20px;
         font-weight: normal;
         text-transform: uppercase;
         padding: 12px 12px;
@@ -112,6 +135,7 @@ body {
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    
 
 }
 .page3 .coletion2018 .Button {
@@ -124,6 +148,7 @@ body {
 .page3 .coletion2018{
     display: flex;
     justify-content: center;
+    
 }
     
 .page4 .page_4_item ul{
@@ -163,16 +188,25 @@ body {
     
     margin-top: -200px;
     margin-bottom: 60px;
-    font-size: 14px;
+    font-size: 25px;
     font-family: 'PT Sans';
 
 }
+.page5 .coletion2018 .page3_info{
+    margin-bottom: 120px;
+} 
 .page6 .Partner{
     flex-direction: column;
     margin-bottom: 20px;
 }
 .page6 .Partner img{
+    margin: 0 auto;
     margin-bottom: 20px;
+    max-width: 400px;
+    
+}
+footer .container{
+    flex-direction: column;
 }
 
 
@@ -492,7 +526,7 @@ h1 {
     font-size: 14px;
     white-space: normal;
     letter-spacing: 1px;
-    width: 628px;
+    width: 500px;
     word-wrap: break-word;
     margin-bottom: 10%;
     font-style: normal;
@@ -551,7 +585,7 @@ h1 {
     padding: 12px 26px;
 
     position: absolute;
-    top: -25%;
+    top: 5%;
     left: 10%;
 
 }
@@ -650,10 +684,13 @@ h1 {
 /* -------------------------page6------------------- */
 .Partner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 20%;
 }
-
+.page6 img{
+    max-width: 250px;
+    margin-left: 15px;
+}
 .page6 .titleBox {
     margin-top: 90px;
     margin-bottom: 90px;
@@ -667,8 +704,8 @@ footer {
     background-size: cover;
     background-position: center;
     width: 100%;
-    max-height: 450px;
-    height: 450px;
+    
+   
 }
 
 footer .container {
